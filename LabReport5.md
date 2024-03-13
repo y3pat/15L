@@ -21,8 +21,7 @@ Contents of files before fixing bug :
 
 Array Examples: 
 
-``
-
+```
 public class ArrayExamples {
 
   // Changes the input array to be in reversed order
@@ -32,23 +31,14 @@ public class ArrayExamples {
     }
   }
 
-  // Returns a *new* array with all the elements of the input array in reversed
-  // order
-  static int[] reversed(int[] arr) {
-    int[] newArray = new int[arr.length];
-    for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = newArray[arr.length - i - 1];
-    }
-    return arr;
-  }
+```
 
-}
 
-``
 
 Contents of file after fixing the bug: 
 
-`` 
+
+```
 public class ArrayExamples {
 
   // Changes the input array to be in reversed order
@@ -61,4 +51,16 @@ public class ArrayExamples {
   }
 }
 
-`` 
+```
+
+File Structure: 
+
+<img width="357" alt="Screen Shot 2024-03-13 at 1 10 55 AM" src="https://github.com/y3pat/15L/assets/129999149/4b8d13f9-637a-436a-ad33-aa7dc6480711">
+
+Lab3Main
+  ArrayExamples.java
+  ArrayTests.java
+
+Part 2: 
+I didn't realise how an autograder worked. It was very interesting to think about all the differnet situations we need to consider and the amount of work needed. I always wondered what happened
+to my code when I submitted it on gradescope and I now have a deeper understanding of it. I've also gotten super familiar with the comand line which was something I was scared of before. All the skill demos and labs truly helped me become more comfortable and this was a really useful class. 
